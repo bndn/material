@@ -2,13 +2,17 @@
     "version": "0.0.0",
     "description": "",
     "authors": [
+        "Anders Munck Højsgaard <amuh@itu.dk>"
     ],
     "tags": [
+        "material",
+        "surface"
     ],
     "projectUrl": "https://github.itu.dk/bndn/material",
     "licenseUrl": "https://github.itu.dk/bndn/material/blob/master/LICENSE.md",
 
     "dependencies": {
+        "Color": "",
         "FSharp.Dnx": {
             "type": "build",
             "version": "1.0.0-*"
@@ -30,7 +34,8 @@
     },
     "fsharp": {
         "files": [
-            "Program.fs"
+            "Material.fsi",
+            "Material.fs"
         ]
     }
 }
