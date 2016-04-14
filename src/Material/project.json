@@ -2,7 +2,7 @@
     "version": "0.0.0",
     "description": "",
     "authors": [
-        "Anders Munck Højsgaard <amuh@itu.dk>"
+        "Anders Munck HÃ¸jsgaard <amuh@itu.dk>"
     ],
     "tags": [
         "material",
@@ -17,10 +17,6 @@
             "type": "build",
             "version": "1.0.0-*"
         }
-    },
-
-    "commands": {
-        "run": "run"
     },
 
     "frameworks": {
