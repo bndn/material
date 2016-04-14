@@ -3,6 +3,7 @@ module Material
 
 open Color
 
+[<NoComparison>]
 type Material =
     | M of Color * float
     override m.ToString() =
@@ -17,7 +18,7 @@ type Material =
 /// <returns>The created material</returns>
 let make c r =
     if r > 1.0 || r < 0.0
-    then invalidArg "Invalid float input, should be between 0.0 and 1.0."
+    then invalidArg "r" "Should be between 0.0 and 1.0"
 
     M(c,r)
 
