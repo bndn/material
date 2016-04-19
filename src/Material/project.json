@@ -1,6 +1,6 @@
 {
     "version": "0.0.0",
-    "description": "",
+    "description": "A library for working with colorized and reflective materials",
     "authors": [
         "Anders Munck Højsgaard <amuh@itu.dk>"
     ],
